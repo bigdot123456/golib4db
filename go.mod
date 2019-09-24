@@ -11,7 +11,7 @@ replace golang.org/x/net v0.0.0-20180906233101-161cd47e91fd => github.com/golang
 replace golang.org/x/lint v0.0.0-20190409202823-959b441ac422 => github.com/golang/lint v0.0.0-20190409202823-959b441ac422
 
 require (
-	cloud.google.com/go v0.36.0 // indirect
+	//cloud.google.com/go v0.36.0 // indirect
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
 	github.com/astaxie/beego v1.10.1
 	github.com/boltdb/bolt v1.3.1 // indirect
