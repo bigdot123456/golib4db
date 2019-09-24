@@ -1,6 +1,6 @@
 package db
 
-import "github.com/kinwyb/go/err1"
+import "github.com/bigdot123456/golib4db/err1"
 
 var (
 	DatabaseNotInitialize = err1.NewError(101, "数据库连接尚未初始化")

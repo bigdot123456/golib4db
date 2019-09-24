@@ -5,13 +5,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kinwyb/go/generate"
+	"github.com/bigdot123456/golib4db/generate"
 
 	"io/ioutil"
 
 	"fmt"
 
-	_ "github.com/kinwyb/go/generate/beego"
+	_ "github.com/bigdot123456/golib4db/generate/beego"
 
 	"github.com/spf13/cobra"
 )

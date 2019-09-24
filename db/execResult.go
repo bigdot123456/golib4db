@@ -5,7 +5,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 type ExecResult interface {

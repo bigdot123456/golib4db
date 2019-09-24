@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 )
 
 func Test_NewTcpClient(t *testing.T) {

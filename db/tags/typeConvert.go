@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 // ErrNil indicates that a reply value is nil.

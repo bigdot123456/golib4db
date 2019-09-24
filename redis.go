@@ -7,8 +7,8 @@ import (
 
 	"github.com/gomodule/redigo/redis"
 
-	"github.com/kinwyb/go/db"
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/db"
+	"github.com/bigdot123456/golib4db/logs"
 )
 
 //RedisUtil redis操作工具

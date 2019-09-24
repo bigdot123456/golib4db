@@ -7,10 +7,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/kinwyb/go/db"
+	"github.com/bigdot123456/golib4db/db"
 )
 
 var rep *regexp.Regexp

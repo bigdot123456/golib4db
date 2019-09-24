@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 	"github.com/micro/protobuf/ptypes"
 
 	"github.com/golang/protobuf/ptypes/any"

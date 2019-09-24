@@ -3,8 +3,8 @@ package mysql
 import (
 	"strings"
 
-	"github.com/kinwyb/go/db"
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/db"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 var SQLEmptyChange = err1.NewError(101, "数据无变化")

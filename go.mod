@@ -1,4 +1,4 @@
-module github.com/kinwyb/go
+module github.com/bigdot123456/golib4db
 
 replace golang.org/x/text v0.3.0 => github.com/golang/text v0.3.0
 
@@ -63,3 +63,5 @@ require (
 	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
+
+go 1.13

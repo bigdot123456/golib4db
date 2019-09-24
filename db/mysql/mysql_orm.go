@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/kinwyb/go/db/tags"
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/db/tags"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 //SetSQL 转换成插入语句

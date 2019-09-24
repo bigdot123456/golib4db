@@ -1,6 +1,6 @@
 package socket
 
-import "github.com/kinwyb/go/logs"
+import "github.com/bigdot123456/golib4db/logs"
 
 // tcp连接协议
 type TcpProtocol interface {

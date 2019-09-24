@@ -3,7 +3,7 @@ package db
 import (
 	"testing"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 func Test_ExecResultToBytes(t *testing.T) {

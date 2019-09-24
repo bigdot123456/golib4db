@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/kinwyb/go/socket"
+	"github.com/bigdot123456/golib4db/socket"
 
-	"github.com/kinwyb/go"
+	"github.com/bigdot123456/golib4db"
 
 	"errors"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 )
 
 //数据消息

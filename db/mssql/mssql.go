@@ -11,10 +11,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/kinwyb/go/db"
+	"github.com/bigdot123456/golib4db/db"
 )
 
 //mssql 操作对象

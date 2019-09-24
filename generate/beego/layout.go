@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kinwyb/go/generate"
+	"github.com/bigdot123456/golib4db/generate"
 )
 
 type lay struct{}

@@ -7,11 +7,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kinwyb/go"
+	"github.com/bigdot123456/golib4db"
 
 	"errors"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 )
 
 // tcp服务端配置

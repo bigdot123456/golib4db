@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 
 	"github.com/shirou/gopsutil/process"
 

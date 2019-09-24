@@ -5,7 +5,7 @@ import (
 	"go/token"
 	"strings"
 
-	"github.com/kinwyb/go/generate"
+	"github.com/bigdot123456/golib4db/generate"
 )
 
 //生成服务代码

@@ -5,8 +5,8 @@ import (
 
 	"fmt"
 
-	"github.com/kinwyb/go/db"
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/db"
+	"github.com/bigdot123456/golib4db/err1"
 	"github.com/smartystreets/goconvey/convey"
 )
 
@@ -74,7 +74,7 @@ func Benchmark_Mysql(b *testing.B) {
 	conn.Close()
 }
 
-//上一版本查询测试: github.com/kinwyb/golang/gosql
+//上一版本查询测试: github.com/bigdot123456/golib4dblang/gosql
 func BenchmarkConnect(b *testing.B) {
 	b.StopTimer()
 	conn, err := Connect("api.zhifangw.cn:3306", "lcfgly", "wang93426", "rfid", "loc=Local&multiStatements=true")

@@ -1,6 +1,6 @@
 package rpcx
 
-import "github.com/kinwyb/go/generate"
+import "github.com/bigdot123456/golib4db/generate"
 
 func init() {
 	generate.RegisterLayouter("rpcxclient", &layclient{})

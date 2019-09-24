@@ -7,7 +7,7 @@ import (
 
 	"strconv"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 type ReconnectFunc = func() (*sql.DB, error)

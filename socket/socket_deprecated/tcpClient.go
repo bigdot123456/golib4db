@@ -5,13 +5,13 @@ import (
 	"net"
 	"time"
 
-	"github.com/kinwyb/go/socket"
+	"github.com/bigdot123456/golib4db/socket"
 
 	"errors"
 
 	"fmt"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 )
 
 type TcpClient struct {

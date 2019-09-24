@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/kinwyb/go/socket"
+	"github.com/bigdot123456/golib4db/socket"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 	"github.com/spf13/cobra"
 )
 

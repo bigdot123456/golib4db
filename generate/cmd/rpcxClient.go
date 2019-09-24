@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/kinwyb/go/generate"
-	_ "github.com/kinwyb/go/generate/rpcx"
+	"github.com/bigdot123456/golib4db/generate"
+	_ "github.com/bigdot123456/golib4db/generate/rpcx"
 	"github.com/spf13/cobra"
 )
 

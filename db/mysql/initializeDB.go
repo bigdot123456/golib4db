@@ -4,11 +4,11 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/kinwyb/go/db"
+	"github.com/bigdot123456/golib4db/db"
 
-	"github.com/kinwyb/go/logs"
+	"github.com/bigdot123456/golib4db/logs"
 
-	"github.com/kinwyb/go/err1"
+	"github.com/bigdot123456/golib4db/err1"
 )
 
 var dbhost string
