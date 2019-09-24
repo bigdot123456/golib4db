@@ -38,3 +38,64 @@ git push -u origin master
 3. crypto
 4. error dispose
 5. log
+
+
+## FAQ
+
+* I/O Timeout Errors 
+The golang.org domain may be blocked from some countries. go get usually produces an error like the following when this happens:
+
+```sh
+$ go get -u google.golang.org/grpc
+package google.golang.org/grpc: unrecognized import path "google.golang.org/grpc" (https fetch: Get https://google.golang.org/grpc?go-get=1: dial tcp 216.239.37.1:443: i/o timeout)
+To build Go code, there are several options:
+```
+### solving method
+1. Set up a VPN and access google.golang.org through that.
+
+2. Without Go module support: git clone the repo manually:
+
+```bash
+git clone https://github.com/grpc/grpc-go.git $GOPATH/src/google.golang.org/grpc
+
+```
+You will need to do the same for all of grpc's dependencies in golang.org, e.g. golang.org/x/net.
+
+3. With Go module support: it is possible to use the replace feature of go mod to create aliases for golang.org packages. In your project's directory:
+```bash
+
+go mod edit -replace=google.golang.org/grpc=github.com/grpc/grpc-go@latest
+go mod tidy
+go mod vendor
+go build -mod=vendor
+
+```
+
+Again, this will need to be done for all transitive dependencies hosted on golang.org as well. Please refer to this issue in the golang repo regarding this concern.
+
+### Compiling error, undefined: grpc.SupportPackageIsVersion
+
+Please update proto package, gRPC package and rebuild the proto files:
+```bash
+
+go get -u github.com/golang/protobuf/{proto,protoc-gen-go}
+go get -u google.golang.org/grpc
+protoc --go_out=plugins=grpc:. *.proto
+
+```
+
+### How to turn on logging
+The default logger is controlled by the environment variables. Turn everything on by setting:
+```bash
+GRPC_GO_LOG_VERBOSITY_LEVEL=99 GRPC_GO_LOG_SEVERITY_LEVEL=info
+
+```
+
+The RPC failed with error "code = Unavailable desc = transport is closing"
+This error means the connection the RPC is using was closed, and there are many possible reasons, including:
+
+* mis-configured transport credentials, connection failed on handshaking
+* bytes disrupted, possibly by a proxy in between
+* server shutdown 
+
+It can be tricky to debug this because the error happens on the client side but the root cause of the connection being closed is on the server side. Turn on logging on both client and server, and see if there are any transport errors.
