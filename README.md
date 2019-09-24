@@ -1,5 +1,6 @@
 # go
 个人golang常用工具包
+------------
 ## proxy 设置
 
 随着 go1.11 的发布，go 官方引入了 go module 来解决依赖管理问题，go module 被集成到原生的 go cmd 中，但是如果你的代码库在$GOPATH中，go1.11 的 module 功能是默认不会开启的，想要开启也非常简单, 通过一个环境变量即可开启go module：
@@ -28,8 +29,10 @@ git push -u origin master
 
 ```
 ## how to use
+------------
 
 *just open go.mod*
+------------
 
 ### include which lib ?
 
@@ -94,8 +97,8 @@ GRPC_GO_LOG_VERBOSITY_LEVEL=99 GRPC_GO_LOG_SEVERITY_LEVEL=info
 The RPC failed with error "code = Unavailable desc = transport is closing"
 This error means the connection the RPC is using was closed, and there are many possible reasons, including:
 
-* mis-configured transport credentials, connection failed on handshaking
-* bytes disrupted, possibly by a proxy in between
-* server shutdown 
+1. mis-configured transport credentials, connection failed on handshaking
+1. bytes disrupted, possibly by a proxy in between
+1. server shutdown 
 
 It can be tricky to debug this because the error happens on the client side but the root cause of the connection being closed is on the server side. Turn on logging on both client and server, and see if there are any transport errors.
