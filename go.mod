@@ -25,7 +25,7 @@ require (
 	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/go-redsync/redsync v1.3.0
 	github.com/go-sql-driver/mysql v1.4.0
-	github.com/gogo/protobuf v1.1.1
+	github.com/gogo/protobuf v1.3.2
 	github.com/golang/groupcache v0.0.0-20180513044358-24b0969c4cb7 // indirect
 	github.com/golang/protobuf v1.3.2
 	github.com/gomodule/redigo v2.0.0+incompatible
@@ -60,7 +60,7 @@ require (
 	github.com/vrischmann/go-metrics-influxdb v0.0.0-20190121110601-4457d7e0175c
 	github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18 // indirect
 	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0 // indirect
-	golang.org/x/tools v0.0.0-20190524140312-2c0ae7006135
+	golang.org/x/tools v0.0.0-20210106214847-113979e3529a
 	google.golang.org/appengine v1.4.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
