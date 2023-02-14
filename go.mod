@@ -13,7 +13,7 @@ replace golang.org/x/lint v0.0.0-20190409202823-959b441ac422 => github.com/golan
 require (
 	//cloud.google.com/go v0.36.0 // indirect
 	github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d // indirect
-	github.com/astaxie/beego v1.10.1
+	github.com/astaxie/beego v1.12.2
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/coreos/bbolt v1.3.0 // indirect
 	github.com/coreos/etcd v3.3.9+incompatible
@@ -24,10 +24,10 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/go-ole/go-ole v1.2.4 // indirect
 	github.com/go-redsync/redsync v1.3.0
-	github.com/go-sql-driver/mysql v1.4.0
+	github.com/go-sql-driver/mysql v1.5.0
 	github.com/gogo/protobuf v1.1.1
 	github.com/golang/groupcache v0.0.0-20180513044358-24b0969c4cb7 // indirect
-	github.com/golang/protobuf v1.3.2
+	github.com/golang/protobuf v1.4.2
 	github.com/gomodule/redigo v2.0.0+incompatible
 	github.com/google/btree v1.0.0 // indirect
 	github.com/gopherjs/gopherjs v0.0.0-20190915194858-d3ddacdb130f // indirect
@@ -42,8 +42,6 @@ require (
 	github.com/opentracing/opentracing-go v1.0.2
 	github.com/pborman/uuid v1.2.0
 	github.com/pquerna/ffjson v0.0.0-20180717144149-af8b230fcd20
-	github.com/prometheus/client_golang v1.1.0 // indirect
-	github.com/prometheus/client_model v0.0.0-20190812154241-14fe0d1b01d4 // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a
 	github.com/robertkrimen/otto v0.0.0-20180617131154-15f95af6e78d
 	github.com/shirou/gopsutil v2.18.12+incompatible
@@ -53,14 +51,12 @@ require (
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/pflag v1.0.2 // indirect
-	github.com/stretchr/testify v1.4.0 // indirect
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20171017195756-830351dc03c6 // indirect
-	github.com/ugorji/go/codec v0.0.0-20180831062425-e253f1f20942 // indirect
 	github.com/vmihailenco/msgpack v4.0.0+incompatible
 	github.com/vrischmann/go-metrics-influxdb v0.0.0-20190121110601-4457d7e0175c
 	github.com/xiang90/probing v0.0.0-20160813154853-07dd2e8dfe18 // indirect
 	golang.org/x/time v0.0.0-20190921001708-c4c64cad1fd0 // indirect
-	golang.org/x/tools v0.0.0-20190524140312-2c0ae7006135
+	golang.org/x/tools v0.0.0-20200117065230-39095c1d176c
 	google.golang.org/appengine v1.4.0 // indirect
 	gopkg.in/sourcemap.v1 v1.0.5 // indirect
 )
